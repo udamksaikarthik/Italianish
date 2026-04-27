@@ -185,6 +185,7 @@ em { font-style: italic; color: var(--terracotta); }
   display: block;
   flex-shrink: 0;
 }
+
 img {
   max-width: 100%;
   display: block;
