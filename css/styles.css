@@ -926,7 +926,10 @@ img {
     gap: 2.5rem;
     margin-bottom: 2.5rem;
 }
-@media (min-width: 720px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; } }
+@media (min-width: 720px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr 1fr; } 
+
+}
+
 
 .brand-light .brand-mark { background: var(--terracotta); }
 .brand-light { color: var(--cream); margin-bottom: 1rem; }
@@ -1099,6 +1102,16 @@ img {
     .mi-btn {
         background: rgba(31, 24, 20, 0.6);
         width: 38px; height: 38px;
+    }
+
+        
+    .hero-bg {
+        animation: hero-mobile-zoom 18s ;
+    }
+
+    @keyframes hero-mobile-zoom {
+        from { transform: scale(1.05); }
+        to   { transform: scale(1.05); }
     }
 }
 
