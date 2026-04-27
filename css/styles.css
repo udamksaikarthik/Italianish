@@ -177,6 +177,19 @@ em { font-style: italic; color: var(--terracotta); }
 }
 .navbar.scrolled .nav-inner { padding-top: 0.85rem; padding-bottom: 0.85rem; }
 
+.nav__logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .brand {
     display: inline-flex;
     align-items: center;
